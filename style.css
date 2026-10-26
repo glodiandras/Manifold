@@ -419,3 +419,8 @@ h2{font-size:36px;letter-spacing:-1.7px}
 .site-footer{padding-top:25px}
 a[href^="mailto:"]::after{content:" (" attr(href) ")";font-size:10px}
 }
+
+/* Release links use the existing journal and button styles. */
+.download-links{display:flex;flex-wrap:wrap;gap:12px 20px;margin:20px 0 24px;font-size:12px}
+.download-links a{text-decoration:underline;text-underline-offset:4px}
+.release-download .button{margin-top:20px}

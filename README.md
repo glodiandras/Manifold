@@ -35,7 +35,7 @@ Manifold is free to use under its bundled proprietary terms, without an activati
 
 Manifold's own application source code is **private**. This public repository contains the finished showcase website and approved distribution files. GitHub's automatically generated “Source code” archives contain this public website repository, not the application's private implementation.
 
-Third-party components retain their own licences and notices. Required corresponding source archives accompany the release, alongside the DMG, ZIP and `SHA256SUMS`.
+Third-party components retain their own licences and notices. Their [licence notices and corresponding source materials](https://github.com/glodiandras/Manifold/tree/2b2404970fca4992b42ebea46cffbd07dcd3c61b) are available separately for this release. The DMG checksum is included in the [release description](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1#verify-your-download).
 
 ## Release policy
 

@@ -1,48 +1,43 @@
 # Manifold
 
-A Manifold hivatalos, magyar és angol bemutatóoldala.
+Jegyzetek, források és tanulási eszközök egyetlen, helyben működő Mac-alkalmazásban.
+A Manifold hivatalos bemutatóoldala és jóváhagyott alkalmazáskiadásai.
 
-- English: https://glodiandras.github.io/Manifold/
-- Magyar: https://glodiandras.github.io/Manifold/hu.html
-- Weboldalverzió: **v0.0** — ez nem alkalmazásverzió.
+- [Magyar bemutató](https://glodiandras.github.io/Manifold/hu.html)
+- [English showcase](https://glodiandras.github.io/Manifold/)
+- [Manifold 1.0.2 Showcase letöltése macOS-re](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-showcase.1/Manifold-1.0.2-showcase.1.dmg)
+- [Kiadási információk és ellenőrzőösszegek](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1)
+- [Korábbi alkalmazáskiadások](https://github.com/glodiandras/Manifold/releases)
 
-A bemutatóvideó még készül. Ez a változat nem kínál alkalmazásletöltést.
+A jelenlegi kiadás **1.0.2-showcase.1**, alkalmazásverzió **1.0.2, build 4**.
+Apple Silicon Mac és macOS 26.2 vagy újabb rendszer szükséges; a kezelőfelület angol.
+Az alkalmazás ingyenesen használható a mellékelt saját feltételek szerint.
+A kiadás önaláírt, Apple-notarizáció nélkül; a telepítési útmutató a kiadási oldalon van.
+A bemutatóvideó még készül.
 
-## Frissítés a tulajdonos jóváhagyásával
+## Saját forráskód és külső komponensek
 
-Az AI elkészítheti a változásokat, de a tulajdonos dönti el, mi és mikor kerül
-nyilvánosságra. Ez a repó kész, statikus webes fájlokat tartalmaz; nincs saját
-kiadási workflow, ütemezett feladat vagy kapcsolat a privát fejlesztői repóval.
+A Manifold saját alkalmazás-forráskódja **privát, nem nyilvános**. Ez a repó
+kizárólag a kész bemutatóoldalt és a jóváhagyott terjesztési fájlokat tartalmazza.
+A Releases alatt automatikusan megjelenő „Source code” archívumok ennek a
+nyilvános webes repónak a fájljai, nem a Manifold alkalmazás saját forrásai.
 
-1. Készüljön el az új webes export, és ellenőrizd az előnézetet.
-2. A jóváhagyott exportot a **Code → Add file → Upload files** felületen töltsd
-   a repó gyökerébe. A ZIP-et előbb bontsd ki; az `index.html` közvetlenül a
-   gyökérbe kerüljön. A meglévő `.nojekyll` fájl maradjon meg.
-3. A **Commit changes** lépéssel véglegesítsd a frissítést a `main` ágon.
-4. A GitHub Pages ezután kiszolgálja a jóváhagyott fájlokat. Ellenőrizd a magyar
-   és az angol oldalt is.
+A külső komponensek megőrzik saját licenceiket. A hozzájuk szükséges
+forráscsomagok, a DMG/ZIP és a SHA-256-jegyzék együtt szerepelnek a kiadásnál.
 
-GitHub Pages beállítás: **Settings → Pages → Source: Deploy from a branch →
-main → /(root) → Save**. A Custom domain mező üres marad.
+## Kézzel jóváhagyott frissítések
 
-A Pages a publikáló ágra kerülő változásokat közzéteszi, ezért erre az ágra
-csak már jóváhagyott anyag kerüljön. Előkészítés és ellenőrzés helyben történik.
+Az AI előkészítheti és ellenőrizheti a változásokat; a tulajdonos dönt arról,
+mi és mikor kerül nyilvánosságra. Nincs saját kiadási workflow, ütemezett
+feltöltés vagy kapcsolat a privát fejlesztői repóval.
 
-## Alkalmazáskiadások később
+1. Ellenőrizd az új alkalmazáscsomagot, kiadási leírást és ellenőrzőösszegeket.
+2. A jóváhagyott verziót külön címkével tedd közzé a Releases alatt;
+   a régi kiadásokat hagyd elérhetően.
+3. Ezután töltsd fel a hozzá tartozó kész statikus weboldalt a `main` ágra.
+   A ZIP-et előbb bontsd ki; az `index.html` a gyökérbe kerüljön.
+4. Ellenőrizd az élő magyar és angol oldalt, valamint a letöltést.
 
-Az alkalmazás telepítői a **Releases** részbe kerülnek, nem a Git-fájlok közé.
-Jóváhagyott új kiadásnál:
-
-1. **Releases → Draft a new release**: hozz létre verziócímkét, például `v1.0.2`.
-2. Add meg a verzió nevét és a felhasználóknak szóló változásokat.
-3. Csatold az ellenőrzött DMG-t, az ellenőrzőösszegeket és a kiadáshoz tartozó
-   szükséges licenc- és forráscsomagokat.
-4. Ellenőrzésig maradjon **draft**; jóváhagyáskor válaszd a **Publish release**
-   lehetőséget.
-5. Ezután kerüljön fel a hozzá tartozó, ellenőrzött letöltési link a weboldalra.
-
-A régebbi kiadások maradjanak elérhetők a Releases alatt. A weboldal nem
-frissül a kiadások alapján magától, és nem frissíti automatikusan az alkalmazást.
-
-GitHub dokumentáció: [Pages publikálási forrás](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site),
-[kiadások kezelése](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+A weboldal letöltési hivatkozása kézzel kiválasztott verzióra mutat, nem változik
+meg magától egy új release létrehozásától.
+GitHub Pages: `main` ág, `/(root)` mappa, üres Custom domain; a `.nojekyll` maradjon meg.

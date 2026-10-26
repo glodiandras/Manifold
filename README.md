@@ -1,43 +1,42 @@
 # Manifold
 
-Jegyzetek, források és tanulási eszközök egyetlen, helyben működő Mac-alkalmazásban.
-A Manifold hivatalos bemutatóoldala és jóváhagyott alkalmazáskiadásai.
+**Knowledge. Connected.**
 
-- [Magyar bemutató](https://glodiandras.github.io/Manifold/hu.html)
-- [English showcase](https://glodiandras.github.io/Manifold/)
-- [Manifold 1.0.2 Showcase letöltése macOS-re](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-showcase.1/Manifold-1.0.2-showcase.1.dmg)
-- [Kiadási információk és ellenőrzőösszegek](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1)
-- [Korábbi alkalmazáskiadások](https://github.com/glodiandras/Manifold/releases)
+Notes, source material and study tools in one application, running locally on your Mac.
+Manifold connects reading, writing and recall in a workspace built around your own files.
 
-A jelenlegi kiadás **1.0.2-showcase.1**, alkalmazásverzió **1.0.2, build 4**.
-Apple Silicon Mac és macOS 26.2 vagy újabb rendszer szükséges; a kezelőfelület angol.
-Az alkalmazás ingyenesen használható a mellékelt saját feltételek szerint.
-A kiadás önaláírt, Apple-notarizáció nélkül; a telepítési útmutató a kiadási oldalon van.
-A bemutatóvideó még készül.
+[Explore Manifold](https://glodiandras.github.io/Manifold/) · [Download for macOS](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-showcase.1/Manifold-1.0.2-showcase.1.dmg) · [Release notes](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1)
 
-## Saját forráskód és külső komponensek
+## From information to understanding
 
-A Manifold saját alkalmazás-forráskódja **privát, nem nyilvános**. Ez a repó
-kizárólag a kész bemutatóoldalt és a jóváhagyott terjesztési fájlokat tartalmazza.
-A Releases alatt automatikusan megjelenő „Source code” archívumok ennek a
-nyilvános webes repónak a fájljai, nem a Manifold alkalmazás saját forrásai.
+- **Write and connect.** Work with Markdown notes, links, backlinks, a connection graph and a freeform canvas. Notes remain portable files, and existing Obsidian folders can be opened.
+- **Read and study.** Bring PDFs and EPUBs into your workflow, connect highlights to notes, and practise with quizzes and spaced-repetition flashcards. Cards can also be exported to Anki.
+- **Use AI locally.** Models run on your own Mac. Isolated Trial workflows and task-specific calibration govern machine writes to your workspace.
+- **Keep your work traceable.** Local snapshots, backups and reversible machine writes help preserve your files and track changes.
 
-A külső komponensek megőrzik saját licenceiket. A hozzájuk szükséges
-forráscsomagok, a DMG/ZIP és a SHA-256-jegyzék együtt szerepelnek a kiadásnál.
+See the [website](https://glodiandras.github.io/Manifold/) for an interactive illustration, system architecture and current limitations. A video showing the actual application is in preparation.
 
-## Kézzel jóváhagyott frissítések
+## Download and install
 
-Az AI előkészítheti és ellenőrizheti a változásokat; a tulajdonos dönt arról,
-mi és mikor kerül nyilvánosságra. Nincs saját kiadási workflow, ütemezett
-feltöltés vagy kapcsolat a privát fejlesztői repóval.
+The current release is **1.0.2-showcase.1**, application version **1.0.2, build 4**.
+Manifold is free to use under its bundled proprietary terms, without an activation account, licence key or time limit.
 
-1. Ellenőrizd az új alkalmazáscsomagot, kiadási leírást és ellenőrzőösszegeket.
-2. A jóváhagyott verziót külön címkével tedd közzé a Releases alatt;
-   a régi kiadásokat hagyd elérhetően.
-3. Ezután töltsd fel a hozzá tartozó kész statikus weboldalt a `main` ágra.
-   A ZIP-et előbb bontsd ki; az `index.html` a gyökérbe kerüljön.
-4. Ellenőrizd az élő magyar és angol oldalt, valamint a letöltést.
+- **Platform:** Apple Silicon Mac, macOS 26.2 or later.
+- **Memory:** 8 GB for use without AI; 16 GB or more recommended for local AI.
+- **Language:** English application interface. AI models are separate downloads.
 
-A weboldal letöltési hivatkozása kézzel kiválasztott verzióra mutat, nem változik
-meg magától egy új release létrehozásától.
-GitHub Pages: `main` ág, `/(root)` mappa, üres Custom domain; a `.nojekyll` maradjon meg.
+1. [Download the DMG](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-showcase.1/Manifold-1.0.2-showcase.1.dmg), open it and drag Manifold to Applications.
+2. The release uses a stable self-signed certificate and is **not Apple-notarized**. If macOS blocks the first launch, use **System Settings → Privacy & Security → Open Anyway**.
+3. For updates, replace the application and retain your workspace folder. Back up your workspace before updating.
+
+[Release notes and SHA-256 checksums](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1) · [All releases](https://github.com/glodiandras/Manifold/releases)
+
+## Source code and licences
+
+Manifold's own application source code is **private**. This public repository contains the finished showcase website and approved distribution files. GitHub's automatically generated “Source code” archives contain this public website repository, not the application's private implementation.
+
+Third-party components retain their own licences and notices. Required corresponding source archives accompany the release, alongside the DMG, ZIP and `SHA256SUMS`.
+
+## Release policy
+
+Every release and website update is explicitly approved by the owner. AI may assist with preparation and verification; there are no unattended release workflows or scheduled uploads. The website points to a manually selected release, and previous releases remain available in the archive.

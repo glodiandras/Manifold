@@ -14,7 +14,7 @@ Manifold connects reading, writing and recall in a workspace built around your o
 - **Use AI locally.** Models run on your own Mac. Isolated Trial workflows and task-specific calibration govern machine writes to your workspace.
 - **Keep your work traceable.** Local snapshots, backups and reversible machine writes help preserve your files and track changes.
 
-See the [website](https://glodiandras.github.io/Manifold/) for an interactive illustration, system architecture and current limitations. A video showing the actual application is in preparation.
+See the [website](https://glodiandras.github.io/Manifold/) for an interactive illustration, system architecture and current limitations. The website also hosts an animated overview film of the workflow.
 
 ## Download and install
 

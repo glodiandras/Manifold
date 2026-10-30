@@ -5,7 +5,7 @@
 Notes, source material and study tools in one application, running locally on your Mac.
 Manifold connects reading, writing and recall in a workspace built around your own files.
 
-[Explore Manifold](https://glodiandras.github.io/Manifold/) · [Download for macOS](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-showcase.1/Manifold-1.0.2-showcase.1.dmg) · [Release notes](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1)
+[Explore Manifold](https://glodiandras.github.io/Manifold/) · [Download for macOS](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-showcase.1/Manifold-1.0.2-showcase.1.dmg) · [Download for Windows (preview)](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-windows.1/Manifold-1.0.2-windows.1-x64-setup.exe) · [Release notes](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1)
 
 ## From information to understanding
 
@@ -31,11 +31,20 @@ Manifold is free to use under its bundled proprietary terms, without an activati
 
 [Release notes and SHA-256 checksums](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1) · [All releases](https://github.com/glodiandras/Manifold/releases)
 
+### Windows preview
+
+**1.0.2-windows.1** (application version 1.0.2, build 5) is a first preview for **Windows 10 22H2 or Windows 11, x64**.
+Notes, linking, the graph and canvas, PDF and EPUB reading, quizzes, flashcards, search, snapshots, backups and undo work on Windows. Local AI models, sandboxed code runs, video and audio conversion and calendar integration are not available in this preview yet; each shows a clear message instead.
+
+1. [Download the installer](https://github.com/glodiandras/Manifold/releases/download/v1.0.2-windows.1/Manifold-1.0.2-windows.1-x64-setup.exe) and run it. It installs for the current user only, without administrator rights, and offers to install the Microsoft Edge WebView2 Runtime if it is missing.
+2. The preview is **not code-signed yet**. If SmartScreen shows “Windows protected your PC”, verify the [SHA-256 checksum](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-windows.1#verify-your-download), then choose **More info → Run anyway**. A signed build will follow.
+3. Uninstalling removes the application only; your workspace remains. Back up your workspace before installing preview software.
+
 ## Source code and licences
 
 Manifold's own application source code is **private**. This public repository contains the finished showcase website and approved distribution files. GitHub's automatically generated “Source code” archives contain this public website repository, not the application's private implementation.
 
-Third-party components retain their own licences and notices. Their [licence notices and corresponding source materials](https://github.com/glodiandras/Manifold/tree/2b2404970fca4992b42ebea46cffbd07dcd3c61b) are available separately for this release. The DMG checksum is included in the [release description](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1#verify-your-download).
+Third-party components retain their own licences and notices. Their [licence notices and corresponding source materials](https://github.com/glodiandras/Manifold/tree/2b2404970fca4992b42ebea46cffbd07dcd3c61b) are available separately for this release; the Windows preview has its own [notices and source materials](https://github.com/glodiandras/Manifold/tree/3dd4d9391a658bc7c9c9433339ec3bb1deb95864). The DMG checksum is included in the [release description](https://github.com/glodiandras/Manifold/releases/tag/v1.0.2-showcase.1#verify-your-download).
 
 ## Release policy
 
